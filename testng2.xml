@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "Automatio Test">
+    <test name="Smoke Testcases">
+        <parameter name="adminUserid" value="abcd"/>   
+	    <packages>
+	       <package name="testngFiles" />
+	        <package name="packTwo"/>     
+	        <package name="datddriven"/>     
+	    </packages>   
+    </test>    
+</suite>
